@@ -64,5 +64,6 @@ func main() {
     router.GET("/albums", getAlbums)
 	router.POST("/albums", postAlbums)
 	router.GET("/albums/:id", getAlbumByID)
+	router.GET("/planet", PlanetScale)
     router.Run("localhost:8080")
 }
